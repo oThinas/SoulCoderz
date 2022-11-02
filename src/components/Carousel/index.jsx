@@ -17,7 +17,7 @@ export function Carousel() {
       pagination={{ clickable: true }}
       breakpoints={{
         1024: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 32
         }
       }}
@@ -25,8 +25,7 @@ export function Carousel() {
       <SwiperSlide>
         <div className='row'>
           <div className='col-3'>
-            <Carousel />
-            {<img src={ImgKids} alt='Imagem de uma criança andando de bicicleta' />}
+            <img src={ImgKids} alt='Imagem de uma criança andando de bicicleta' />
           </div>
         </div>
       </SwiperSlide>
@@ -34,8 +33,7 @@ export function Carousel() {
       <SwiperSlide>
         <div className='row'>
           <div className='col-3'>
-            <Carousel />
-            {<img src={ImgAdult} alt='Imagem de um adulto andando de bicicleta' />}
+            <img src={ImgAdult} alt='Imagem de um adulto andando de bicicleta' />
           </div>
         </div>
       </SwiperSlide>

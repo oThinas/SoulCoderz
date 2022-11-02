@@ -25,27 +25,8 @@ export default function Home() {
       </div>
       <div className='categories'>
         <div className='small-container'>
-          <h2 className='title' id='start'>SELECIONE O TAMANHO <br />QUE MAIS COMBINA COM VOCÊ <br /> KIDS </h2>
-          <div className='row'>
-            <div className='col-3'>
-              <Carousel />
-              {/* <img src={ImgKids} alt='aaa' /> */}
-            </div>
-          </div>
-
-
-
-
-
-
-
-          {/* <h2 className='title' id='start'>ADULTO</h2> */}
-          {/* <div className='row'>
-            <div className='col-3'> */}
-          {/* <img src={Img1} alt='aaa' /> */}
-          {/* </div> */}
-          {/* </div> */}
-
+          <h2 className='title' id='start'>SELECIONE O TAMANHO <br />QUE MAIS COMBINA COM VOCÊ <br /> KIDS OU ADULTO </h2>
+          <Carousel />
         </div>
       </div >
     </section >

@@ -64,7 +64,7 @@ p {
 }
 
 .categories {
-  margin: 70px 0;
+  margin: 5px 0;
 }
 
 .col-3 {
@@ -74,8 +74,8 @@ p {
 }
 
 .col-3 img {
-  width: 550px;
-  height: 550px;
+  width: 490px;
+  height: 490px;
   border-radius: 100%;
 }
 
