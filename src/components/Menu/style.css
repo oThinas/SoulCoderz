@@ -1,0 +1,39 @@
+header {
+  position: absolute;
+  z-index: 50;
+  padding-top: 15px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.header {
+  background: radial-gradient(#fff, #8ad0ff);
+  padding-top: 50px;
+
+}
+
+nav {
+  text-align: center;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  margin-top: 8px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+
+}
