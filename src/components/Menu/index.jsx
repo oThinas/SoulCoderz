@@ -7,9 +7,8 @@ export default function Menu() {
       <nav>
         <ul>
           <li><Link to='/login'>Login</Link></li>
-          <li><Link to='/logout'>Ler QR Code</Link></li>
           <li><Link to='/logout'>Criar Ponto</Link></li>
-          <li><Link to='/logout'>Logout</Link></li>
+          <li><Link to='/logout'>Ler QR Code</Link></li>
         </ul>
       </nav>
     </header>
