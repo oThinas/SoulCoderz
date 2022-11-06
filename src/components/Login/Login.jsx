@@ -1,5 +1,5 @@
 import './style.css'
-import Button from '../Button/Button'
+// import Button from '../Button/Button'
 
 export default function Login() {
   return (
@@ -8,15 +8,15 @@ export default function Login() {
         <form action="#">
           <div class="title_login">Login</div>
           <div class="input_box underline">
-            <input type="text" placeholder="Insira seu Email" required />
+            <input type="text" placeholder="Insira seu email" required />
             <div class="underline"></div>
           </div>
           <div class="input_box">
-            <input type="password" placeholder="Insira sua Senha" required />
+            <input type="password" placeholder="Insira sua senha" required />
             <div class="underline"></div>
           </div>
-          <Button />
-          <p className='login_paragraph'>Ainda não possui conta? <br /> Clique aqui e registre-se</p>
+          <button className='button_login'>Entrar</button>
+          <p className='paragraph_login'>Ainda não possui conta? <br /> Clique aqui e registre-se</p>
         </form>
       </div>
     </body>

@@ -1,0 +1,11 @@
+.point_list {
+  background: #fff;
+  width: 950px;
+  height: 550px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+  border: #0033B8 2px solid;
+  margin-top: 60px;
+  margin-left: 90px;
+}
