@@ -21,6 +21,8 @@ export default function CriarPonto() {
       </div>
       <div className="point_list">
         <Point />
+        <Point />
+        <Point />
       </div>
     </>
   )

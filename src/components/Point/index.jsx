@@ -13,16 +13,20 @@ export default function Point() {
       </div>
       <div className="Size">
         <h5>Tamanho</h5>
-        <input type="radio" name="kids" id="kids" />
+        <input type="radio" name="type" value="kids" />
         <label htmlFor="kids">Kids</label> <br />
-        <input type="radio" name="adulto" id="adulto" />
+        <input type="radio" name="type" value="adulto" />
         <label htmlFor="adulto">Adulto</label>
       </div>
-      <div className="button_bike">
+      <div className="button_bike_add">
         <button className='add_bike'>Adicionar bike</button>
       </div>
-      <button className='edit_bike'>Editar</button>
-      <button className='remove_bike'>Remover</button>
+      <div className='button_bike_edit'>
+        <button className='edit_bike'>Editar</button>
+      </div>
+      <div className="button_bike_remove">
+        <button className='remove_bike'>Remover</button>
+      </div>
     </div>
   )
 }
