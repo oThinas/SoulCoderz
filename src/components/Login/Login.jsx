@@ -1,7 +1,40 @@
+import { useState } from "react"
 import './style.css'
-// import Button from '../Button/Button'
 
 export default function Login() {
+
+  const [user, setUser] = useState({
+    login: "enzo.trev@hotmai.com",
+    senha: "12345"
+  })
+
+  const handleChange = e => {
+    setUser({ ...user, [e.target.name]: e.target.value })
+  }
+
+  const logar = async (e) => {
+    e.preventDefault()
+
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(user)
+    }
+
+    const response = await fetch(
+      // "url",
+      requestOptions
+    )
+    const data = await response.json()
+    if (data.login) {
+      sessionStorage.setItem("Usuario-validado", data.login)
+    }
+
+    if (data) {
+      window.location = "/home"
+    }
+  }
+
   return (
     <body className='login_body'>
       <div class="main_login">
