@@ -39,7 +39,6 @@ export default function CriarPonto() {
             <div className="point_list">
               <Point />
               <Point />
-              <Point />
             </div>
           </>
         )}

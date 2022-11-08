@@ -39,7 +39,7 @@ export default function Home() {
 
             <div className='row'>
               <div className='col-3'>
-                <img src={HomeImg3} alt='Imagem de uma criança andando de bicicleta' />
+                <img src={HomeImg3} alt='Imagem de uma pessoa lendo um qr code' />
               </div>
             </div>
           </div>
