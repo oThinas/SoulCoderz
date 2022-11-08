@@ -15,10 +15,9 @@ export default function QrCode() {
               <input type="text" placeholder="1234567891011121314" required />
               <div class="underline"></div>
             </div>
+            <button className='button_login'>Ler</button>
             <p className='paragraph_qrcode'>----------------ou----------------  <br /> Escaneiei o código QR</p> <br />
-            <input className='teste' type="file" capture />
-
-            {/* <button className='button_login'>Entrar</button> */}
+            <input type="file" capture tyle="display:none;" />
           </form>
         </div>
       </div>
