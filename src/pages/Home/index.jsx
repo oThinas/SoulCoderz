@@ -4,7 +4,8 @@ import Footer from '../../components/Footer'
 import HomeImg2 from '../../assets/img/HomeImg2.png'
 import HomeImg3 from '../../assets/img/HomeImg3.png'
 import { Carousel } from '../../components/Carousel'
-import { ArrowRight } from "phosphor-react";
+import { FaArrowRight } from "react-icons/fa";
+
 export default function Home() {
 
   return (
@@ -18,7 +19,7 @@ export default function Home() {
                 <h1>Tenha <span>praticidade</span> no cotidiano👋</h1>
                 <h2 className='title'>É para todos!</h2>
                 <p class="main_info">As bicicletas são para todos, basta se cadastrar no site e ler o QR Code, <br /> De bike, São Paulo fica mais perto de você!!</p>
-                <a href="#start" class="button">Veja mais <ArrowRight className='button_icon' size={0} /></a>
+                <a href="#start" class="button">Veja mais <FaArrowRight className='arrow_icon' size={16} /></a>
               </div>
               <div class="col-2">
                 <img src={HomeImg2} alt="Imagem da página home" />

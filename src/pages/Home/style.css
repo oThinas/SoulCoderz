@@ -55,18 +55,15 @@ h1 {
   display: inline-block;
   background: #f3eb55;
   color: #1E1E1E;
-  padding: 8px 30px;
+  padding: 10px 30px;
   margin: 25px 0;
   border-radius: 30px;
   font-weight: 600;
   line-height: 24px;
 }
 
-.button_icon {
-  color: #1E1E1E;
-  width: 20px;
-  height: 20px;
-  margin-bottom: -4px;
+.arrow_icon {
+  padding-top: 4px;
 }
 
 .categories {

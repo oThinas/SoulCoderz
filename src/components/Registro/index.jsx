@@ -1,5 +1,10 @@
 import './style.css'
-// import Button from '../Button/Button'
+import { FaUserAlt } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
+
+
 
 export default function Registro() {
   return (
@@ -8,18 +13,22 @@ export default function Registro() {
         <form action="#">
           <div class="title_register">Registre-se</div>
           <div class="input_box underline">
+            <FaUserAlt size={18} />
             <input type="text" placeholder="Insira seu nome" required />
             <div class="underline"></div>
           </div>
           <div class="input_box underline">
+            <FaUserCircle size={18} />
             <input type="text" placeholder="Insira seu usuário" required />
             <div class="underline"></div>
           </div>
           <div class="input_box underline">
+            <FaRegEnvelope size={18} />
             <input type="email" placeholder="Insira seu email" required />
             <div class="underline"></div>
           </div>
           <div class="input_box">
+            <FaLock size={18} />
             <input type="password" placeholder="Insira sua senha" required />
             <div class="underline"></div>
           </div>

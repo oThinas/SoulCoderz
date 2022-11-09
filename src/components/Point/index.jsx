@@ -1,4 +1,7 @@
 import './style.css'
+import { CgAdd } from "react-icons/cg";
+import { FaPen } from "react-icons/fa";
+import { FaRegTimesCircle } from "react-icons/fa";
 
 export default function Point() {
   return (
@@ -19,13 +22,19 @@ export default function Point() {
         <label htmlFor="adulto">Adulto</label>
       </div>
       <div className="button_bike_add">
-        <button className='add_bike'>Adicionar bike</button>
+        <button className='add_bike'>Adicionar bike
+          <CgAdd size={20} className='button_icons' />
+        </button>
       </div>
       <div className='button_bike_edit'>
-        <button className='edit_bike'>Editar</button>
+        <button className='edit_bike'>Editar
+          <FaPen size={16} className='button_icons' />
+        </button>
       </div>
       <div className="button_bike_remove">
-        <button className='remove_bike'>Remover</button>
+        <button className='remove_bike'>Remover
+          <FaRegTimesCircle className='button_icons' size={18} />
+        </button>
       </div>
     </div>
   )

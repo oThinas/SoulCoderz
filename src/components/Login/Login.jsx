@@ -1,5 +1,8 @@
 import { useState } from "react"
-import { Link } from 'react-router-dom'
+import { FaRegEnvelope } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
+
+
 import './style.css'
 
 export default function Login() {
@@ -42,11 +45,13 @@ export default function Login() {
         <form action="#">
           <div class="title_login">Login</div>
           <div class="input_box underline">
-            <input type="text" placeholder="Insira seu email" required />
+            <FaRegEnvelope size={18} />
+            <input type="text" placeholder="Insira seu email" required id="email" />
             <div class="underline"></div>
           </div>
           <div class="input_box">
-            <input type="password" placeholder="Insira sua senha" required />
+            <FaLock size={18} />
+            <input type="password" placeholder=" Insira sua senha" required />
             <div class="underline"></div>
           </div>
           <button className='button_login'>Entrar</button>

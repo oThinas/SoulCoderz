@@ -1,9 +1,10 @@
 import './style.css'
 import Menu from '../../components/Menu'
+import { FaCamera } from "react-icons/fa";
+
 export default function QrCode() {
   return (
     <>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></link>
       <Menu />
       <h2 className='qrcode_title'>Escaneie o <span>QR Code</span> ou<br /> digite o <span>Serial</span> e tenha acesso <br />  a sua bike</h2>
       <div className="qrcode_row">
@@ -14,10 +15,10 @@ export default function QrCode() {
               <input type="text" placeholder="1234567891011121314" required />
               <div class="underline"></div>
             </div>
-            <button className='button_qrcode'>Ler</button>
+            <button className='button_qrcode'>Ler Serial</button>
             <p className='paragraph_qrcode'>----------------ou----------------  <br />Escaneiei o código QR</p> <br />
             <input type="file" id='file_input' />
-            <label htmlFor="file_input"><i class="fa-regular fa-camera"></i>Escanear QR Code</label>
+            <label htmlFor="file_input"><FaCamera className='camera_icon' />Escanear QR Code</label>
           </form>
         </div>
       </div>

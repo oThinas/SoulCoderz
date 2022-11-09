@@ -140,6 +140,7 @@ input#file_input+label {
   cursor: pointer;
 }
 
-.glyphicon {
-  padding-right: 10px;
+.camera_icon {
+  width: 25px;
+  height: 22px;
 }
