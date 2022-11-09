@@ -1,12 +1,11 @@
 import './style.css'
 import Menu from '../../components/Menu'
-
 export default function QrCode() {
   return (
-    <body>
+    <>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></link>
       <Menu />
       <h2 className='qrcode_title'>Escaneie o <span>QR Code</span> ou<br /> digite o <span>Serial</span> e tenha acesso <br />  a sua bike</h2>
-
       <div className="qrcode_row">
         <div class="main_code">
           <form action="#">
@@ -16,12 +15,12 @@ export default function QrCode() {
               <div class="underline"></div>
             </div>
             <button className='button_qrcode'>Ler</button>
-            <p className='paragraph_qrcode'>----------------ou----------------  <br /> Escaneiei o código QR</p> <br />
-            <input type="file" capture tyle="display:none;" />
+            <p className='paragraph_qrcode'>----------------ou----------------  <br />Escaneiei o código QR</p> <br />
+            <input type="file" id='file_input' />
+            <label htmlFor="file_input"><i class="fa-regular fa-camera"></i>Escanear QR Code</label>
           </form>
         </div>
       </div>
-
-    </body>
+    </>
   )
 }

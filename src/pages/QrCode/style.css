@@ -122,7 +122,24 @@
   text-align: center;
 }
 
-input[type='file'] {
-  color: rgba(0, 0, 0, 0);
-  user-select: none;
+input#file_input {
+  display: none;
+}
+
+input#file_input+label {
+  background-color: #0033B8;
+  padding: 8px;
+  color: white;
+  border: 2px solid #9ec3ff;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.glyphicon {
+  padding-right: 10px;
 }

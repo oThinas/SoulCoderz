@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from 'react-router-dom'
 import './style.css'
 
 export default function Login() {
@@ -49,7 +50,7 @@ export default function Login() {
             <div class="underline"></div>
           </div>
           <button className='button_login'>Entrar</button>
-          <p className='paragraph_login'>Ainda não possui conta? <br /> Clique aqui e registre-se</p>
+          <a href="/registrar">  <p className='paragraph_login' >Ainda não possui conta? <br /> Clique aqui e registre-se</p></a>
         </form>
       </div>
     </body>

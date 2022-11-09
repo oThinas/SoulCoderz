@@ -24,7 +24,7 @@ export default function Registro() {
             <div class="underline"></div>
           </div>
           <button className='button_register'>Entrar</button>
-          <p className='paragraph_register'>Já possui conta? <br /> Clique aqui para fazer login</p>
+          <a href="/login"><p className='paragraph_register'>Já possui conta? <br /> Clique aqui para fazer login</p></a>
         </form>
       </div>
     </body>
