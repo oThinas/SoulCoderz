@@ -99,10 +99,30 @@
   transform-origin: left;
 }
 
+.button_qrcode {
+  display: inline-block;
+  width: 100%;
+  background: #f3eb55;
+  color: #1E1E1E;
+  padding: 8px 30px;
+  margin: 29px 0;
+  border-radius: 30px;
+  font-weight: 600;
+  line-height: 24px;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
 .paragraph_qrcode {
   font-weight: 400;
   line-height: 21px;
   padding-top: 15px;
   color: #555555;
   text-align: center;
+}
+
+input[type='file'] {
+  color: rgba(0, 0, 0, 0);
+  user-select: none;
 }
