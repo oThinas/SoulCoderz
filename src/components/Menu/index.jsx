@@ -15,8 +15,6 @@ export default function Menu() {
           <li><Link to='/login'>Login</Link></li>
           <li><Link to='/CriarPonto'>Criar Ponto</Link></li>
           <li><Link to='/qrcode'>Ler QR Code</Link></li>
-
-          {/* <li onClick={logout}><Link to='/logout'>{usuario}Ler QR Code</Link></li> */}
         </ul>
       </nav>
     </header>
