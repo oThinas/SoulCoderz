@@ -3,6 +3,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 
 
@@ -33,7 +34,9 @@ export default function Registro() {
             <div class="underline"></div>
           </div>
           <button className='button_register'>Entrar</button>
-          <a href="/login"><p className='paragraph_register'>Já possui conta? <br /> Clique aqui para fazer login</p></a>
+          <Link to="/login">
+            <p className='paragraph_register'>Já possui conta? <br /> Clique aqui para fazer login</p>
+          </Link>
         </form>
       </div>
     </body>

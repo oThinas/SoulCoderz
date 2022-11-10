@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from "react"
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
@@ -55,7 +56,9 @@ export default function Login() {
             <div class="underline"></div>
           </div>
           <button className='button_login'>Entrar</button>
-          <a href="/registrar">  <p className='paragraph_login' >Ainda não possui conta? <br /> Clique aqui e registre-se</p></a>
+          <Link to="/registrar">
+            <p className='paragraph_login' >Ainda não possui conta? <br /> Clique aqui e registre-se</p>
+          </Link>
         </form>
       </div>
     </body>

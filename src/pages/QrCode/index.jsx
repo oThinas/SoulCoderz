@@ -10,7 +10,7 @@ export default function QrCode() {
       <div className="qrcode_row">
         <div class="main_code">
           <form action="#">
-            <div class="title_code">Insira o serial </div>
+            <div class="title_code">Insira o Serial </div>
             <div class="qrcode_box underline">
               <input type="text" placeholder="1234567891011121314" required />
               <div class="underline"></div>

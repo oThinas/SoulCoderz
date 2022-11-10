@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className='categories'>
           <div className='small-container'>
-            <h2 className='sub-title'>Selecione o tamanho<br />que mais <span>combina com você</span></h2>
+            <h2 id='start' className='sub-title'>Selecione o tamanho<br />que mais <span>combina com você</span></h2>
             <h3 class="type">Kids ou Adulto</h3>
             <Carousel />
             <h2 className='sub-title'>Libere sua bike em <br /><span>apenas 3 passos</span></h2>
