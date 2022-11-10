@@ -47,8 +47,9 @@ export default function CriarPonto() {
               <div className="underline"></div>
             </div>
             <div className="point_list">
-              <Point />
-              <Point />
+              <Point address="Rua Vitorino Carmilo, 484" amountKids="4 bikes" amountAdult="2 bikes" />
+              <Point address="Rua Clélia, 500" amountKids="0 bikes" amountAdult="1 bikes" />
+              <Point address="Avenida Ana Costa, 1323" amountKids="3 bikes" amountAdult="6 bikes" />
             </div>
           </>
         )}

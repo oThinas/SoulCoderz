@@ -3,16 +3,16 @@ import { CgAdd } from "react-icons/cg";
 import { FaPen } from "react-icons/fa";
 import { FaRegTimesCircle } from "react-icons/fa";
 
-export default function Point() {
+export default function Point(props) {
   return (
     <div className="point">
       <div className="address">
-        <p>Rua Vitorino Carmilo, 484</p>
+        <p>{props.address}</p>
       </div>
       <div className="avaiableCount">
         <h5>Bikes disponiveis</h5>
-        <p>Kids: 4 bikes</p>
-        <p>Adulto: 2 bikes</p>
+        <p>Kids: {props.amountKids}</p>
+        <p>Adulto: {props.amountAdult}</p>
       </div>
       <div className="Size">
         <h5>Tamanho</h5>
