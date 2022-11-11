@@ -42,18 +42,18 @@ export default function Login() {
 
   return (
     <body className='login_body'>
-      <div class="main_login">
+      <div className="main_login">
         <form action="#">
-          <div class="title_login">Login</div>
-          <div class="input_box underline">
+          <div className="title_login">Login</div>
+          <div className="input_box underline">
             <FaRegEnvelope size={18} />
             <input type="text" placeholder="Insira seu email" required id="email" />
-            <div class="underline"></div>
+            <div className="underline"></div>
           </div>
-          <div class="input_box">
+          <div className="input_box">
             <FaLock size={18} />
             <input type="password" placeholder=" Insira sua senha" required />
-            <div class="underline"></div>
+            <div className="underline"></div>
           </div>
           <button className='button_login'>Entrar</button>
           <Link to="/registrar">

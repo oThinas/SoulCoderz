@@ -12,16 +12,16 @@ export default function Home() {
     <>
       <Menu />
       <section>
-        <div class="header">
-          <div class="container">
-            <div class="row">
-              <div class="col-2">
+        <div className="header">
+          <div className="container">
+            <div className="row">
+              <div className="col-2">
                 <h1>Tenha <span>praticidade</span> no cotidiano👋</h1>
                 <h2 className='title'>É para todos!</h2>
-                <p class="main_info">As bicicletas são para todos, basta se cadastrar no site e ler o QR Code, <br /> De bike, São Paulo fica mais perto de você!!</p>
-                <a href="#start" class="button">Veja mais <FaArrowRight className='arrow_icon' size={16} /></a>
+                <p className="main_info">As bicicletas são para todos, basta se cadastrar no site e ler o QR Code, <br /> De bike, São Paulo fica mais perto de você!!</p>
+                <a href="#start" className="button">Veja mais <FaArrowRight className='arrow_icon' size={16} /></a>
               </div>
-              <div class="col-2">
+              <div className="col-2">
                 <img src={HomeImg2} alt="Imagem da página home" />
               </div>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className='categories'>
           <div className='small-container'>
             <h2 id='start' className='sub-title'>Selecione o tamanho<br />que mais <span>combina com você</span></h2>
-            <h3 class="type">Kids ou Adulto</h3>
+            <h3 className="type">Kids ou Adulto</h3>
             <Carousel />
             <h2 className='sub-title'>Libere sua bike em <br /><span>apenas 3 passos</span></h2>
 
