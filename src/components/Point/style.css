@@ -1,27 +1,32 @@
-.point_list {
-  background: #fff;
-  width: 1110px;
-  height: 550px;
-  padding: 25px 30px;
-  border-radius: 8px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
-  border: #0033B8 2px solid;
-  margin: 60px 0 0 90px;
-}
-
 .point {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   border-bottom: 1px solid #555555;
 }
 
+.address {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex: 1 1 0%;
+}
+
 .address p {
-  text-align: center;
   color: #1E1E1E;
-  padding: 35px 24px 0 0;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .avaiableCount {
-  min-width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-right: 1px solid #555555;
   border-left: 1px solid #555555;
   padding: 5px 24px;
@@ -35,8 +40,16 @@
   color: #555555;
 }
 
+.radios {
+  display: flex;
+  flex-direction: column;
+}
+
 .Size {
   padding: 5px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Size h5 {
@@ -44,6 +57,8 @@
 }
 
 .Size label {
+  display: flex;
+  gap: 4px;
   color: #555555;
 }
 
@@ -70,7 +85,8 @@
 }
 
 .button_bike_edit {
-  padding: 0 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .edit_bike {
@@ -113,4 +129,35 @@
 
 .button_icons {
   margin-left: 8px;
+}
+
+@media screen and (max-width: 1280px) {
+  .point {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .actions {
+    justify-content: center;
+  }
+  .avaiableCount {
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  .actions {
+    flex-direction: column;
+    gap: 16px;
+    border-top: 1px solid #555555;
+    margin-top: 16px;
+    width: 100%;
+  }
+  .avaiableCount, .button_bike_add {
+    border-right: none;
+  }
+  .Size {
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    width: 100%;
+  }
 }

@@ -5,6 +5,7 @@ import { FaLock } from "react-icons/fa";
 
 
 import './style.css'
+import Menu from '../Menu';
 
 export default function Login() {
 
@@ -41,26 +42,30 @@ export default function Login() {
   }
 
   return (
-    <body className='login_body'>
-      <div className="main_login">
-        <form action="#">
-          <div className="title_login">Login</div>
-          <div className="input_box underline">
-            <FaRegEnvelope size={18} />
-            <input type="text" placeholder="Insira seu email" required id="email" />
-            <div className="underline"></div>
-          </div>
-          <div className="input_box">
-            <FaLock size={18} />
-            <input type="password" placeholder=" Insira sua senha" required />
-            <div className="underline"></div>
-          </div>
-          <button className='button_login'>Entrar</button>
-          <Link to="/registrar">
-            <p className='paragraph_login' >Ainda não possui conta? <br /> Clique aqui e registre-se</p>
-          </Link>
-        </form>
-      </div>
-    </body>
+    <>
+      <Menu />
+      
+      <body className='login_body'>
+        <div className="main_login">
+          <form action="#">
+            <div className="title_login">Login</div>
+            <div className="input_box underline">
+              <FaRegEnvelope size={18} />
+              <input type="text" placeholder="Insira seu email" required id="email" />
+              <div className="underline"></div>
+            </div>
+            <div className="input_box">
+              <FaLock size={18} />
+              <input type="password" placeholder=" Insira sua senha" required />
+              <div className="underline"></div>
+            </div>
+            <button className='button_login'>Entrar</button>
+            <Link to="/registrar">
+              <p className='paragraph_login' >Ainda não possui conta? <br /> Clique aqui e registre-se</p>
+            </Link>
+          </form>
+        </div>
+      </body>
+    </>
   )
 }
