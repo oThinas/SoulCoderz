@@ -6,7 +6,7 @@ export default function QrCode() {
   return (
     <>
       <Menu />
-      <h2 className='qrcode_title'>Escaneie o <span>QR Code</span> ou<br /> digite o <span>Serial</span> e tenha acesso <br />  a sua bike</h2>
+      <h2 className='qrcode_title'>Escaneie o <span>QR Code</span> ou<br /> digite o <span>Serial</span> e tenha acesso a sua bike</h2>
       <div className="qrcode_row">
         <div className="main_code">
           <form action="#">
